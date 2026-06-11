@@ -17,7 +17,7 @@ const U = (id: string) => `https://images.unsplash.com/photo-${id}?w=900&q=80`
 
 const PROJECTS: Project[] = [
   { num: '01', cat: 'Doctor / Clinic', title: 'General Physician', url: 'https://varsansri.github.io/dr-sharma', img1: U('1551076805-e1869033e561'), img2: U('1579684385127-1ef15d508118'), img3: U('1559839734-2b71ea197ec2') },
-  { num: '02', cat: 'Dental Clinic', title: 'Dental Care', url: 'https://varsansri.github.io/dr-priya-dental', img1: U('1606811971618-4486d14f3f99'), img2: U('1588776814546-daab30f310ce'), img3: U('1629909615957-7a62479394b7') },
+  { num: '02', cat: 'Dental Clinic', title: 'Dental Care', url: 'https://varsansri.github.io/dr-priya-dental', img1: U('1606811971618-4486d14f3f99'), img2: U('1588776814546-daab30f310ce'), img3: U('1629909613654-28e377c37b09') },
   { num: '03', cat: 'Dermatology', title: 'Skin Clinic', url: 'https://varsansri.github.io/dr-kavya-skin', img1: U('1570172619644-dfd03ed5d881'), img2: U('1540555700478-4be289fbecef'), img3: U('1556228578-8c89e6adf883') },
   { num: '04', cat: 'Mental Health', title: 'Wellness Clinic', url: 'https://varsansri.github.io/mindwell', img1: U('1474631245212-32dc3c8310c6'), img2: U('1573496359142-b8d87734a5a2'), img3: U('1506126613408-eca07ce68773') },
   { num: '05', cat: 'Digital Agency', title: 'Marketing Agency', url: 'https://varsansri.github.io/nexus-agency', img1: U('1497366216548-37526070297c'), img2: U('1522071820081-009f0129c71c'), img3: U('1542744173-8e7e53415bb0') },
