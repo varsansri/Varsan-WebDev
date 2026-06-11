@@ -46,27 +46,22 @@ export default function Hero() {
         </a>
       </FadeIn>
 
-      {/* Portrait — centered focal point */}
-      <div className="relative z-10 flex-1 flex items-center justify-center px-6 min-h-0">
-        <FadeIn
-          delay={0.4}
-          y={30}
-          className="w-[68vw] max-w-[280px] sm:max-w-[320px] md:max-w-[380px] lg:max-w-[440px]"
-        >
+      {/* Content — portrait + name + tagline as one tight, vertically-centered group */}
+      <div className="relative z-10 flex-1 flex flex-col justify-center min-h-0 px-6 md:px-10 pb-6 sm:pb-8">
+        {/* Portrait */}
+        <FadeIn delay={0.4} y={30} className="flex justify-center min-h-0">
           <Magnet padding={150} strength={3}>
             <img
               src="subject.png"
               alt="S. Srivarsan"
-              className="w-full h-auto max-h-[52vh] object-contain mx-auto select-none drop-shadow-[0_25px_45px_rgba(0,0,0,0.45)]"
+              className="h-auto w-auto max-h-[46vh] max-w-[78vw] sm:max-w-[300px] md:max-w-[360px] lg:max-w-[420px] object-contain select-none drop-shadow-[0_25px_45px_rgba(0,0,0,0.45)]"
               draggable={false}
             />
           </Magnet>
         </FadeIn>
-      </div>
 
-      {/* Bottom block — name, tagline, CTA */}
-      <div className="relative z-20 shrink-0 px-6 md:px-10 pb-7 sm:pb-9 md:pb-12">
-        <div className="overflow-hidden">
+        {/* Name */}
+        <div className="overflow-hidden -mt-1">
           <FadeIn
             as="h1"
             delay={0.15}
@@ -77,7 +72,8 @@ export default function Hero() {
           </FadeIn>
         </div>
 
-        <div className="flex items-end justify-between gap-3 mt-3 sm:mt-4">
+        {/* Tagline + CTA */}
+        <div className="relative z-20 flex items-end justify-between gap-3 mt-3">
           <FadeIn
             as="p"
             delay={0.35}
