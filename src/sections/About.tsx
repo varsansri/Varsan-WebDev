@@ -8,25 +8,25 @@ const FIG =
 const CORNERS = [
   {
     src: FIG + 'moon_icon.11395d36.png',
-    cls: 'top-[4%] left-[1%] sm:left-[2%] md:left-[4%] w-[120px] sm:w-[160px] md:w-[210px]',
+    cls: 'top-[3%] left-[2%] md:left-[4%] w-[64px] sm:w-[120px] md:w-[210px]',
     x: -80,
     delay: 0.1,
   },
   {
     src: FIG + 'p59_1.4659672e.png',
-    cls: 'bottom-[8%] left-[3%] sm:left-[6%] md:left-[10%] w-[100px] sm:w-[140px] md:w-[180px]',
+    cls: 'bottom-[5%] left-[3%] sm:left-[6%] md:left-[10%] w-[56px] sm:w-[110px] md:w-[180px]',
     x: -80,
     delay: 0.25,
   },
   {
     src: FIG + 'lego_icon-1.703bb594.png',
-    cls: 'top-[4%] right-[1%] sm:right-[2%] md:right-[4%] w-[120px] sm:w-[160px] md:w-[210px]',
+    cls: 'top-[3%] right-[2%] md:right-[4%] w-[64px] sm:w-[120px] md:w-[210px]',
     x: 80,
     delay: 0.15,
   },
   {
     src: FIG + 'Group_134-1.2e04f3ce.png',
-    cls: 'bottom-[8%] right-[3%] sm:right-[6%] md:right-[10%] w-[130px] sm:w-[170px] md:w-[220px]',
+    cls: 'bottom-[5%] right-[3%] sm:right-[6%] md:right-[10%] w-[68px] sm:w-[130px] md:w-[220px]',
     x: 80,
     delay: 0.3,
   },
