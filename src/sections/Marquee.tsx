@@ -59,7 +59,7 @@ export default function Marquee() {
   return (
     <section
       ref={sectionRef}
-      className="relative z-10 bg-ink pt-24 sm:pt-32 md:pt-40 pb-10 overflow-hidden"
+      className="relative z-10 bg-ink pt-6 sm:pt-10 md:pt-12 pb-10 overflow-hidden"
     >
       <div className="flex flex-col gap-3">
         <div

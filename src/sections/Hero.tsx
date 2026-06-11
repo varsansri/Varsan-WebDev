@@ -12,7 +12,7 @@ const NAV = [
 export default function Hero() {
   return (
     <section
-      className="relative flex h-screen min-h-[600px] flex-col overflow-hidden"
+      className="relative flex flex-col overflow-hidden"
       style={{ overflowX: 'clip' }}
     >
       <div className="shader-bg" />
@@ -46,15 +46,15 @@ export default function Hero() {
         </a>
       </FadeIn>
 
-      {/* Content — portrait + name + tagline as one tight, vertically-centered group */}
-      <div className="relative z-10 flex-1 flex flex-col justify-center min-h-0 px-6 md:px-10 pb-6 sm:pb-8">
+      {/* Content — portrait + name + tagline as one tight, compact group */}
+      <div className="relative z-10 flex flex-col px-6 md:px-10 pt-2 pb-7 sm:pb-9">
         {/* Portrait */}
-        <FadeIn delay={0.4} y={30} className="flex justify-center min-h-0">
+        <FadeIn delay={0.4} y={30} className="flex justify-center">
           <Magnet padding={150} strength={3}>
             <img
               src="subject.png"
               alt="S. Srivarsan"
-              className="h-auto w-auto max-h-[46vh] max-w-[78vw] sm:max-w-[300px] md:max-w-[360px] lg:max-w-[420px] object-contain select-none drop-shadow-[0_25px_45px_rgba(0,0,0,0.45)]"
+              className="h-auto w-auto max-h-[38vh] max-w-[60vw] sm:max-w-[260px] md:max-w-[320px] lg:max-w-[360px] object-contain select-none drop-shadow-[0_25px_45px_rgba(0,0,0,0.45)]"
               draggable={false}
             />
           </Magnet>
